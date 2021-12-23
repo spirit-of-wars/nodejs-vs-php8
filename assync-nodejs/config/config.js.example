@@ -1,0 +1,8 @@
+/**
+ * @type {{connectionString: string, sequelizeLogging: boolean}}
+ */
+module.exports = {
+  connectionString: 'postgres://user:password@host:port/bdName',
+  sequelizeLogging: false,
+  pageSize: 100,
+};

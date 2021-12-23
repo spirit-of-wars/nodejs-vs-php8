@@ -1,0 +1,17 @@
+{
+    "require": {
+        "amphp/http-server": "^2.1",
+        "react/event-loop": "^1.1",
+        "react/http": "^1.2",
+        "amphp/postgres": "^1.3",
+        "amphp/http-server-router": "^1.0",
+        "monolog/monolog": "^2.2",
+
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
